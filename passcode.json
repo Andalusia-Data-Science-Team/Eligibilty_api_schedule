@@ -1,0 +1,32 @@
+{
+    "DB_NAMES": {
+    "AHJ_DOT-CARE": {
+        "Database": "AHJ.Env.HCMS",
+        "PWD": "readP@ssw0rd",
+        "Server": "10.111.111.52",
+        "UID": "readuser",
+        "driver": "{ODBC Driver 17 for SQL Server}"
+    },
+
+    "BI":
+    {
+        "Database": "DWH_Claims",
+        "PWD": "B!@SQL#Dmin",
+        "Server": "AWS-BI-03",
+        "UID": "sa",
+        "driver": "{ODBC Driver 17 for SQL Server}"
+    },
+
+    "ORACLE_LIVE":
+    {
+        "host": "10.120.111.3",
+        "port": 1521,
+        "user": "readonly_bi",
+        "psw": "hjhoasis1@pw",
+        "service": "prod"
+    }
+  
+  
+    }
+  
+  }
