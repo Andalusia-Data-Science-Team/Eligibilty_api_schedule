@@ -1,0 +1,271 @@
+,patient_id,episode_no,outcome,note,class,insertion_date
+0,1456795,1,Complete,Coverage is not-in-forceThis Provider is not appointed to this policy,not-covered,2025-04-30 18:01
+1,1068678,28,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+4,1456390,1,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+6,471652,272,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+7,1444445,3,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+8,1456806,1,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+10,1452766,4,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+11,1336827,4,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+12,561540,29,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+13,1456415,1,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+14,1456481,2,Complete,PROVIDER NOT IN MEMBER NETWORK#,not-active,2025-04-30 18:01
+15,1318536,18,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+16,1456613,3,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+19,1456618,1,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+20,1046657,23,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+21,763778,15,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+22,852460,31,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+23,1352833,12,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+24,1074453,5,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+25,1095146,5,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+27,519499,50,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+28,1411931,2,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+29,1348625,7,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+30,519499,51,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+31,1437305,2,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+32,1401929,7,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+33,1258516,2,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+34,1455674,2,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+35,1403276,9,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+36,1071290,3,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+38,1456424,1,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+42,1450419,3,Complete,Coverage is not in-force,out-network,2025-04-30 18:01
+43,515517,13,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+45,1172377,2,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+46,1452141,2,Complete,Coverage is not-in-forceThis Provider is not appointed to this policy,not-covered,2025-04-30 18:01
+47,1403899,9,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+48,1432026,8,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+50,664997,25,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+51,1435437,9,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+52,1046657,22,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+53,92674,89,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+54,1388113,19,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+58,1385355,2,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+59,773061,14,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+60,1308142,12,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+61,561540,27,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+62,1379131,16,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+63,1415514,2,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+65,1414514,9,Complete,Ineligible: Sorry you are not an appointed provider,out-network,2025-04-30 18:01
+67,1453512,2,Complete,Coverage is not-in-forceThis Provider is not appointed to this policy,not-covered,2025-04-30 18:01
+68,1394845,4,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+70,1448074,5,Complete,PROVIDER NOT IN MEMBER NETWORK#,not-active,2025-04-30 18:01
+71,1455715,2,Complete,PROVIDER NOT IN MEMBER NETWORK#,not-active,2025-04-30 18:01
+72,538766,25,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+73,515517,15,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+74,1320288,7,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+75,1433784,8,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+76,1328519,17,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+78,1375511,13,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+79,852460,32,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+80,1371311,24,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+81,1453632,4,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+82,1451201,2,Complete,Coverage is not-in-forceThis Provider is not appointed to this policy,not-covered,2025-04-30 18:01
+83,1448010,6,Complete,Coverage is not-in-forceThis Provider is not appointed to this policy,not-covered,2025-04-30 18:01
+85,1411154,5,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+86,1456789,1,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+87,1378339,2,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+88,1333890,20,Complete,Ineligible: Sorry you are not an appointed provider,out-network,2025-04-30 18:01
+90,1365940,3,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+91,1455744,4,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+95,846701,107,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+97,1319917,4,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+98,1407524,11,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+99,1262890,34,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+101,1328031,3,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+103,1455748,2,Complete,PROVIDER NOT IN MEMBER NETWORK#,not-active,2025-04-30 18:01
+104,1369605,3,Complete,All coverages are in-force,eligible,2025-04-30 18:01
+105,1036035,22,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+110,1396136,2,Complete,Ineligible: Sorry you are not an appointed provider,out-network,2025-04-30 18:01
+112,835095,32,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+113,276773,161,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+114,1358080,5,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+115,1456471,1,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+116,1451923,1,Complete,All coverages are in-force,eligible,2025-04-30 18:01
+119,1455346,2,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+122,1395588,6,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+123,1450391,2,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+124,678254,12,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+125,270751,86,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+126,334429,21,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+127,1449859,6,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+128,1451380,2,Complete,Coverage is not-in-forceThis Provider is not appointed to this policy,not-covered,2025-04-30 18:01
+130,366099,24,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+135,1298562,26,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+136,1456781,1,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+137,1383883,6,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+138,551800,61,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+140,1048070,7,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+142,713309,251,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+144,1456655,2,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+145,1413226,8,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+146,1456361,2,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+147,1436860,6,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+148,1427630,4,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+149,750446,87,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+150,1436967,5,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+152,1371999,4,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+153,1456611,1,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+156,1222739,10,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+162,1020798,16,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+164,1413226,9,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+165,1456412,1,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+167,1434605,4,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+168,153865,102,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+169,1234454,18,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+170,1456797,1,Complete,This member is eligible for Services,eligible,2025-04-30 18:01
+171,1319741,20,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+172,1453567,4,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+174,1436854,11,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+176,345565,30,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+179,1425187,4,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+180,1456800,1,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+181,1403276,10,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+182,1456226,2,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+183,669774,25,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+184,1456828,1,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+187,1450364,3,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+188,1448405,2,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+189,1447512,3,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+190,1420508,11,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+191,1456438,2,Complete,Ineligible: Sorry you are not an appointed provider,out-network,2025-04-30 18:01
+194,1456809,1,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+196,1419224,4,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+197,1234732,10,Complete,Ineligible: Sorry you are not an appointed provider,out-network,2025-04-30 18:01
+198,515161,18,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+199,1452630,2,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+200,1446870,2,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+201,1450245,2,Complete,Coverage is not-in-forceThis Provider is not appointed to this policy,not-covered,2025-04-30 18:01
+202,1447283,6,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+206,1410650,24,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+207,569350,23,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+208,1435108,5,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+209,561540,28,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+212,1447853,4,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+217,1256751,12,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+218,1456345,1,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+219,153739,348,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+220,1193508,22,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+221,1427630,3,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+222,1447493,4,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+223,1187607,7,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+224,1456530,1,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+225,1456292,2,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+226,263261,48,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+227,764840,9,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+229,1328519,16,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+230,1451390,2,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+231,1430515,4,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+232,1329225,8,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+233,1456760,1,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+234,1452766,5,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+237,1434197,3,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+238,1454669,3,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+240,1357218,5,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+243,1456484,2,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+244,450298,172,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+245,1374907,6,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+247,1119638,3,Complete,Ineligible: Sorry you are not an appointed provider,out-network,2025-04-30 18:01
+248,726212,159,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+249,1435437,8,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+250,1386633,2,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+251,1365940,2,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+252,1448265,2,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+253,1414002,23,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+255,1456389,1,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+256,1425265,5,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+257,1435730,4,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+258,1302376,17,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+260,1393137,9,Complete,Insured is not authorized to be treated at your healthcare facility.,out-network,2025-04-30 18:01
+262,1456683,1,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+263,1444813,5,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+267,1449240,3,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+268,239582,119,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+269,239582,120,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+270,1302132,8,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+271,1328519,15,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+272,1037024,22,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+273,1385560,2,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+274,1124512,47,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+279,1425554,13,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+280,1242303,20,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+282,763778,16,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+283,1085063,46,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+287,1447624,5,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+289,1346393,9,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+291,1390641,3,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+294,1455250,2,Complete,PROVIDER NOT IN MEMBER NETWORK#,not-active,2025-04-30 18:01
+295,1284758,21,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+296,1234732,9,Complete,Ineligible: Sorry you are not an appointed provider,out-network,2025-04-30 18:01
+298,1368914,9,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+301,1371811,8,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+303,1378430,14,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+304,615233,9,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+305,397963,56,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+306,1454142,2,Complete,Ineligible: Sorry you are not an appointed provider,out-network,2025-04-30 18:01
+307,852385,95,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+308,1450419,4,Complete,Coverage is not in-force,out-network,2025-04-30 18:01
+310,1351940,12,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+311,1437011,3,Complete,Provider outside member Network,out-network,2025-04-30 18:01
+312,1456149,1,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+313,1135006,3,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+314,821957,61,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+315,1302376,16,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+318,1408968,3,Complete,Provider outside member Network,out-network,2025-04-30 18:01
+319,1456294,1,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+321,1329225,9,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+322,1456070,1,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+323,515517,14,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+324,1074453,3,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+325,990542,6,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+329,1456335,1,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+331,857945,31,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+333,1383964,15,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+334,1455880,2,Complete,Coverage is not in-force,out-network,2025-04-30 18:01
+335,1312812,19,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+337,354940,78,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+338,1456838,1,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+339,1297435,5,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+340,899719,18,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+341,1314152,15,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+343,1456826,1,Complete,All coverages are in-force,eligible,2025-04-30 18:01
+344,1438763,12,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+345,1059629,6,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+347,1332559,14,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+348,1311379,3,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+349,852460,33,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+351,270751,85,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+352,598157,33,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+353,1370783,6,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+355,869733,6,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+356,1385348,3,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+358,1456643,2,Complete,Coverage is not in-force,out-network,2025-04-30 18:01
+359,1435108,6,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+360,1456767,1,Complete,Ineligible: Sorry you are not an appointed provider,out-network,2025-04-30 18:01
+362,1321202,7,Complete,Coverage is not-in-forceThis Provider is not appointed to this policy,not-covered,2025-04-30 18:01
+363,1305643,2,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+367,538766,26,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+368,1074453,4,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+369,422435,7,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+370,1456520,1,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+371,1311781,11,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+374,1049974,2,Complete,Ineligible: Sorry you are not an appointed provider,out-network,2025-04-30 18:01
+375,831009,16,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+376,651737,2,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+377,1411154,6,Complete,Patient’s coverage is subject to the contracted terms and condition,eligible,2025-04-30 18:01
+378,1456797,2,Complete,This member is eligible for Services,eligible,2025-04-30 18:01
+379,1377123,6,Complete,Coverage is not in-force,not-active,2025-04-30 18:01
+380,1123013,31,Complete,Insured is authorized to be treated at your healthcare facility.,eligible,2025-04-30 18:01
+381,615580,67,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+382,1456033,1,Complete,Coverage is in-force,eligible,2025-04-30 18:01
+383,1324664,9,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+384,1453303,2,Complete,Ineligible: Sorry you are not an appointed provider,out-network,2025-04-30 18:01
+385,456241,63,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+389,1003310,7,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01
+391,1424162,2,Complete,Coverage is not-in-forceThis Provider is not appointed to this policy,not-covered,2025-04-30 18:01
+395,460224,19,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+396,1448789,2,Complete,Services performed by a non-network provider are not covered.,out-network,2025-04-30 18:01
+397,1453934,1,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+398,673015,22,Complete,Eligible subject to MEDGULF's Policy Terms and Conditions,eligible,2025-04-30 18:01
+399,1228991,7,Complete,Physician consultation is covered subject to Tawuniya's Policy Terms and Conditions.,eligible,2025-04-30 18:01

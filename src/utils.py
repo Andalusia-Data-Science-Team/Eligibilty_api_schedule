@@ -5,8 +5,6 @@ from datetime import datetime
 import time
 import warnings
 import logging
-import env
-import traceback
 import json
 import requests
 import ast
@@ -14,6 +12,7 @@ from tqdm import tqdm
 from sqlalchemy import create_engine
 import platform
 import cx_Oracle
+from pathlib import Path
 
 # Suppress the specific UserWarning
 warnings.filterwarnings("ignore", category=UserWarning, message="Could not infer format")
@@ -40,8 +39,25 @@ def update_table(table_name, df, retries=28, delay=500):
     - retries: Number of retry attempts.
     - delay: Delay in seconds between retries.
     """
-    connect_string = urllib.parse.quote_plus(env.bi_db_connection_string)
-    engine = sqlalchemy.create_engine(f'mssql+pyodbc:///?odbc_connect={connect_string}', fast_executemany=True)
+    data_dict = _load_json("passcode.json")
+    db_names = data_dict.get('DB_NAMES')
+
+    passcodes = db_names["BI"]
+    server, db, uid, pwd, driver = (
+        passcodes['Server'],
+        passcodes['Database'],
+        passcodes['UID'],
+        passcodes['PWD'],
+        passcodes['driver'],
+    )
+    params = urllib.parse.quote_plus(
+    f"DRIVER={driver};"
+    f"SERVER={server};"
+    f"DATABASE={db};"
+    f"UID={uid};"
+    f"PWD={pwd};"
+    )
+    engine = create_engine("mssql+pyodbc:///?odbc_connect={}".format(params))  
     
     # Create a copy of the DataFrame to avoid modifying the original
     df_clean = df.copy()
@@ -143,8 +159,12 @@ def Iqama_table(df):
     # Apply the API to unique iqama numbers and store in a dictionary
     eligibility_dict = {}
     for iqama in unique_iqama:
-        iqama = int(iqama)
-        eligibility_dict[int(iqama)] = Beneficiary_api(int(iqama))
+        try:
+            iqama = int(iqama)
+            eligibility_dict[int(iqama)] = Beneficiary_api(int(iqama))
+        except ValueError:
+            iqama = None 
+        
         
     
     # Convert to DataFrame
@@ -204,17 +224,26 @@ def extract_api_status(value):
 
 
 def change_date(row):
+    if pd.isna(row):
+        return None
 
-    # Parse the string into a datetime object
-    date_object = datetime.strptime(row, "%Y-%m-%d %H:%M:%S")
+    row = str(row).split('.')[0]  # Remove anything after a dot (like ".357000")
 
-    # Format the datetime object to just the date part
-    formatted_date = date_object.strftime("%Y-%m-%d")
+    try:
+        # Try parsing with time first
+        date_object = datetime.strptime(row, "%Y-%m-%d %H:%M:%S")
+    except ValueError:
+        try:
+            # If that fails, try parsing date only
+            date_object = datetime.strptime(row, "%Y-%m-%d")
+        except ValueError:
+            # If it still fails, return None (or raise an error if you prefer)
+            return None
 
-    return formatted_date
+    return date_object.strftime("%Y-%m-%d")
 
 
-def create_json_payload(row, purpose="discovery"):
+def create_json_payload(row, purpose="discovery", source = ""):
     # Helper function to safely convert values to int and then string
     def safe_int_str(value, default=""):
         if pd.notna(value) and value is not None:
@@ -241,8 +270,30 @@ def create_json_payload(row, purpose="discovery"):
     
     # Determine identifier system safely
     identifier_system = "nationalid" if safe_str(row.get("nationality")) == "NI" else "iqama"
-    
-    json_data = {
+    if source == "AHJ_DOT-CARE":
+        json_data = {
+            "purpose": purpose,
+            "patient_id": safe_int_str(row.get("patient_id")),
+            "payer_license": safe_int_str(row.get("payer_linces")),
+            "payer_license_2": safe_int_str(row.get("payer_linces")),
+            "serviced_period_start": safe_str(row.get("start_date")),
+            "serviced_period_end": safe_str(row.get("end_date")),
+            "created_date": safe_str(row.get("start_date")),
+            "patient_name": safe_str(row.get("patient_name")),
+            "patient_family_name": safe_str(row.get("family_name")),
+            "patient_given_names": safe_name_list(row.get("pat_name_1"), row.get("pat_name_2")),
+            "patient_gender": safe_str(row.get("gender")),
+            "patient_birth_date": safe_str(row.get("date_of_birth")),
+            "marital_status_code": safe_str(row.get("marital_char")),
+            "patient_identifier_value": safe_int_str(row.get("iqama_no")),
+            "patient_identifier_type": safe_str(row.get("nationality")),
+            "patient_identifier_system": identifier_system,
+            "patient_occupation_code": "others",
+            "insurer_name": safe_str(row.get("purchaser_name")),
+            "insurer_org_id": safe_int_str(row.get("insurer"))
+        }
+    else:
+        json_data = {
         "purpose": purpose,
         "patient_id": safe_int_str(row.get("patient_id")),
         "payer_license": safe_int_str(row.get("payer_linces")),
@@ -418,6 +469,7 @@ def _load_json(file_path):
     Returns:
         Dict: Content of the JSON file.
     """
+    file_path = Path(file_path)
     if not file_path.exists():
         print(f"Error: JSON file not found at {file_path}")
         raise FileNotFoundError(f"JSON file not found at {file_path}")
@@ -478,3 +530,14 @@ def init_oracle_client(lib_dir=None):
             print("Oracle Client library has already been initialized.")
         else:
             raise Exception 
+
+
+def map_row(row):
+    gender_map = {'Female': 'female', 'Male': 'male'}
+    marital_map = {'Single': 'U', 'Married': 'M'}
+
+    row['gender'] = gender_map.get(row['gender'], row['gender'])
+    row['marital_char'] = marital_map.get(row['marital_char'], row['marital_char'])
+    
+    return row
+

@@ -1,0 +1,24 @@
+SUBJECT: Error in IQAMA_JOB_AHJ_DOT-CARE on AHQ-AI-02
+TIME: 2025-04-30 13:48:06
+HOST: AHQ-AI-02
+SYSTEM: Windows 2019Server
+PYTHON: 3.12.8
+
+==================================================
+
+An error occurred in the IQAMA_JOB_AHJ_DOT-CARE job on AHQ-AI-02 at 2025-04-30 13:48:06.
+
+Error details:
+int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+
+Traceback (most recent call last):
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\eligibilty_api_schedule.py", line 67, in _eligibility_iqama_job
+    result_df = Iqama_table(df_new)
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\src\utils.py", line 166, in Iqama_table
+    eligibility_dict[int(iqama)] = Beneficiary_api(int(iqama))
+                                                   ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+
+
+Please check the scheduler.log file for more information.

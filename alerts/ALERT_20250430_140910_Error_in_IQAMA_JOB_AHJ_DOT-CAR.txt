@@ -1,0 +1,44 @@
+SUBJECT: Error in IQAMA_JOB_AHJ_DOT-CARE on AHQ-AI-02
+TIME: 2025-04-30 14:09:10
+HOST: AHQ-AI-02
+SYSTEM: Windows 2019Server
+PYTHON: 3.12.8
+
+==================================================
+
+An error occurred in the IQAMA_JOB_AHJ_DOT-CARE job on AHQ-AI-02 at 2025-04-30 14:09:10.
+
+Error details:
+unconverted data remains: .050000
+
+Traceback (most recent call last):
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\eligibilty_api_schedule.py", line 80, in _eligibility_iqama_job
+    df_new["start_date"] = df_new.apply(lambda row: change_date(str(row['start_date'])), axis=1)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\myenv\Lib\site-packages\pandas\core\frame.py", line 10374, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ^^^^^^^^^^
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\myenv\Lib\site-packages\pandas\core\apply.py", line 916, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\myenv\Lib\site-packages\pandas\core\apply.py", line 1063, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\myenv\Lib\site-packages\pandas\core\apply.py", line 1081, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\eligibilty_api_schedule.py", line 80, in <lambda>
+    df_new["start_date"] = df_new.apply(lambda row: change_date(str(row['start_date'])), axis=1)
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\src\utils.py", line 229, in change_date
+    date_object = datetime.strptime(row, "%Y-%m-%d %H:%M:%S")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ai-service\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 655, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ai-service\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 437, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: .050000
+
+
+Please check the scheduler.log file for more information.

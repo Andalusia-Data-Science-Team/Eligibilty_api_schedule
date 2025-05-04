@@ -1,0 +1,35 @@
+SUBJECT: Error in IQAMA_JOB_AHJ_DOT-CARE on AHQ-AI-02
+TIME: 2025-04-30 14:02:34
+HOST: AHQ-AI-02
+SYSTEM: Windows 2019Server
+PYTHON: 3.12.8
+
+==================================================
+
+An error occurred in the IQAMA_JOB_AHJ_DOT-CARE job on AHQ-AI-02 at 2025-04-30 14:02:34.
+
+Error details:
+Cannot save file into a non-existent directory: 'iqama_data\DOT-CARE'
+
+Traceback (most recent call last):
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\eligibilty_api_schedule.py", line 75, in _eligibility_iqama_job
+    result_df.to_csv(f"iqama_data/DOT-CARE/iqama_{timestamp}.csv")
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\myenv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\myenv\Lib\site-packages\pandas\core\generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\myenv\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\myenv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\myenv\Lib\site-packages\pandas\io\common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\myenv\Lib\site-packages\pandas\io\common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'iqama_data\DOT-CARE'
+
+
+Please check the scheduler.log file for more information.

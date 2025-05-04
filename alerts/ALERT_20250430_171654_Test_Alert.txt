@@ -1,0 +1,15 @@
+SUBJECT: Test Alert
+TIME: 2025-04-30 17:16:54
+HOST: AHQ-AI-02
+SYSTEM: Windows 2019Server
+PYTHON: 3.12.8
+
+==================================================
+
+This is a test alert from the scheduler on AHQ-AI-02.
+Generated at: 2025-04-30 17:16:54
+
+System: Windows 2019Server
+Python: 3.12.8
+
+If you see this file, the alert system is working correctly.

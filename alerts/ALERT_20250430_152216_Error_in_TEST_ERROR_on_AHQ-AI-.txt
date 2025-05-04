@@ -1,0 +1,20 @@
+SUBJECT: Error in TEST_ERROR on AHQ-AI-02
+TIME: 2025-04-30 15:22:16
+HOST: AHQ-AI-02
+SYSTEM: Windows 2019Server
+PYTHON: 3.12.8
+
+==================================================
+
+An error occurred in the TEST_ERROR job on AHQ-AI-02 at 2025-04-30 15:22:16.
+
+Error details:
+This is a simulated error to test the error handling system
+
+Traceback (most recent call last):
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\alert_system.py", line 188, in test_alert_system
+    raise ValueError("This is a simulated error to test the error handling system")
+ValueError: This is a simulated error to test the error handling system
+
+
+Please check the scheduler.log file for more information.
