@@ -1,0 +1,23 @@
+SUBJECT: Error in IQAMA_JOB_AHJ_DOT-CARE on AHQ-AI-02
+TIME: 2025-05-08 12:45:05
+HOST: AHQ-AI-02
+SYSTEM: Windows 2019Server
+PYTHON: 3.12.8
+
+==================================================
+
+An error occurred in the IQAMA_JOB_AHJ_DOT-CARE job on AHQ-AI-02 at 2025-05-08 12:45:05.
+
+Error details:
+'BI'
+
+Traceback (most recent call last):
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\eligibilty_api_schedule.py", line 77, in _eligibility_iqama_job
+    update_table(table_name="Iqama_dotcare", df=result_df)
+  File "C:\Data-Science\Deployment\Eligibilty_api_schedule\src\utils.py", line 45, in update_table
+    passcodes = db_names["BI"]
+                ~~~~~~~~^^^^^^
+KeyError: 'BI'
+
+
+Please check the scheduler.log file for more information.

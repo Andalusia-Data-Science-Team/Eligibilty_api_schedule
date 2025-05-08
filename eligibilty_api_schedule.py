@@ -9,9 +9,7 @@ import threading
 from src.utils import *
 from functools import partial
 import traceback
-import os
 import socket
-import platform
 import sys
 
 # Import our alert system
@@ -58,7 +56,7 @@ def _eligibility_iqama_job(query, source):
         engine = get_conn_engine(source=source)
         df_new = pd.read_sql_query(query, engine)
         df_new = df_new.apply(map_row, axis = 1)
-        df_new.to_csv(f"iqama_data/in/IN_DATA_{timestamp}.csv")
+        df_new.to_csv(f"data/in/IN_DATA_{timestamp}.csv")
 
         if df_new.empty:
             logger.info(f"[{source}] No new data to process")
@@ -72,10 +70,10 @@ def _eligibility_iqama_job(query, source):
         
 
         if source == "ORACLE_LIVE":
-            result_df.to_csv(f"iqama_data/OSIS/iqama_{timestamp}.csv")
+            result_df.to_csv(f"data/OSIS/iqama_{timestamp}.csv")
             update_table(table_name="dbo.Iqama_data", df=result_df)
         elif source == "AHJ_DOT-CARE":
-            result_df.to_csv(f"iqama_data/DOT-CARE/iqama_{timestamp}.csv")
+            result_df.to_csv(f"data/DOT-CARE/iqama_{timestamp}.csv")
             update_table(table_name="Iqama_dotcare", df=result_df)
         
         logger.info(f"[{source}] Starting eligibility API requests...")
@@ -90,7 +88,7 @@ def _eligibility_iqama_job(query, source):
             lambda row: send_json_to_api(create_json_payload(row, source=source)), 
             axis=1
         )
-        df_new.to_csv(f"iqama_data/in/before_api_{timestamp}.csv")
+        df_new.to_csv(f"data/in/before_api_{timestamp}.csv")
 
         df_new["class"] = df_new.apply(lambda row: extract_code(row["elgability_response"]), axis=1)
         df_new["outcome"] = df_new.apply(lambda row: extract_outcome(row["elgability_response"]), axis=1)
@@ -100,11 +98,11 @@ def _eligibility_iqama_job(query, source):
 
         if source == "ORACLE_LIVE":
             df = df_new[["patient_id", "episode_no", "outcome", "note", "class", "insertion_date"]]
-            df.to_csv(f"iqama_data/OSIS/eligibilty_{timestamp}.csv")
+            df.to_csv(f"data/OSIS/eligibilty_{timestamp}.csv")
             update_table(table_name="EligibilityResponses", df=df)
         elif source == "AHJ_DOT-CARE":
             df = df_new[["visit_id", "outcome", "note", "class", "insertion_date"]]
-            df.to_csv(f"iqama_data/DOT-CARE/eligibilty_{timestamp}.csv")
+            df.to_csv(f"data/DOT-CARE/eligibilty_{timestamp}.csv")
             update_table(table_name="Eligibility_dotcare", df=df)
 
         logger.info(f"[{source}] ===== Job completed at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} =====\n")
@@ -158,10 +156,10 @@ if __name__ == '__main__':
         logger.info("Continuing with scheduler despite alert test failure")
     
     try:
-        with open("C:\Data-Science\Deployment\Eligibilty_api_schedule\queries\eligibilty_dotcare.sql", "r") as file:
+        with open("C:\Data-Science\Deployment\Eligibilty_api_schedule\query\eligibilty_dotcare.sql", "r") as file:
             eligibilty_dotcare = file.read()
 
-        with open(r"C:\Data-Science\Deployment\Eligibilty_api_schedule\queries\eligibilty_osis.sql", "r") as file:
+        with open(r"C:\Data-Science\Deployment\Eligibilty_api_schedule\query\eligibilty_osis.sql", "r") as file:
             eligibilty_osis = file.read()
     except Exception as e:
         error_message = f"Failed to load SQL queries: {str(e)}"

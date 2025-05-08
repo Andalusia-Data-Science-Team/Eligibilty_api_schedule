@@ -1,0 +1,9 @@
+SUBJECT: CRITICAL - Failed to start scheduler
+TIME: 2025-05-06 10:11:00
+HOST: AHQ-AI-02
+SYSTEM: Windows 2019Server
+PYTHON: 3.12.8
+
+==================================================
+
+Failed to load SQL queries: [Errno 2] No such file or directory: 'C:\\Data-Science\\Deployment\\Eligibilty_api_schedule\\queries\\eligibilty_dotcare.sql'

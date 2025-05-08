@@ -1,0 +1,9 @@
+SUBJECT: Scheduler Stopped
+TIME: 2025-05-06 10:07:57
+HOST: AHQ-AI-02
+SYSTEM: Windows 2019Server
+PYTHON: 3.12.8
+
+==================================================
+
+The scheduler was manually stopped on AHQ-AI-02 at 2025-05-06 10:07:57.
